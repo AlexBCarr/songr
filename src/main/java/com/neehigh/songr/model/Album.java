@@ -1,4 +1,4 @@
-package com.neehigh.songr;
+package com.neehigh.songr.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
