@@ -27,8 +27,8 @@ public class SongrController {
     public String albums(Model m) {
         Album[] albums = {
              new Album("Carter 2", "Lil Wayne", 22, 4657,"/static/carter2.jpg"),
-                new Album("Port of Miami", "Rick Ross", 19,4669,"/static/portofmiami.jpg"),
-                new Album("ASTROWORLD", "Travis Scott", 17, 3522,"/static/astroworld.jpg")
+             new Album("Port of Miami", "Rick Ross", 19,4669,"/static/portofmiami.jpg"),
+             new Album("ASTROWORLD", "Travis Scott", 17, 3522,"/static/astroworld.jpg")
 
         };
         m.addAttribute("albums", albums);
